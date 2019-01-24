@@ -24,6 +24,9 @@ var AddressSchema = new Schema({
     postalcode:{
         type:String
     },
+    shop_id:{
+        type:String
+    },
     created: {
         type: Date,
         default: Date.now
